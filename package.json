@@ -1,0 +1,35 @@
+{
+  "name": "nmapp",
+  "version": "1.0.0",
+  "description": "my nodejs monolith app example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osekman/nmapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "monolith",
+    "app"
+  ],
+  "author": "Osman Sekman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osekman/nmapp/issues"
+  },
+  "homepage": "https://github.com/osekman/nmapp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mariadb": "^3.0.0",
+    "md5": "^2.3.0",
+    "path": "^0.12.7"
+  }
+}
